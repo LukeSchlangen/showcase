@@ -19,7 +19,7 @@ function UserService() {
         console.debug('Logging in a user');
     }
     function signUp() {
-        console.debug('Logging in a user');
+        console.debug('Signing up a user');
     }
 }
 

@@ -1,10 +1,10 @@
 'use strict';
 
 module.exports = require('angular')
-    .module('bookbottles.showcase.signUp', [
+    .module('bookbottles.showcase.login', [
         require('angular-ui-router')
     ])
     .config(require('./route'))
-    .controller('SignUpCtrl', require('./controllers/SignUpCtrl'))
+    .controller('LoginCtrl', require('./controllers/LoginCtrl'))
     .factory('UserService', require('./services/UserService'))
     .name;

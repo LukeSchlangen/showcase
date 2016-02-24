@@ -4,11 +4,13 @@ require('angular')
     .module('bookbottles.showcase', [
         /* 3rd Party */
         require('angular-ui-router'),
-        require('angulartics'),
-        require('angulartics-google-analytics'),
+        //require('angulartics'),
+        //require('angulartics-google-analytics'),
 
         /* Custom */
-        require('../signup')
+        require('../signUp'),
+        require('../login')
+        //require('../dashboard')
     ])
     .config(require('./config'))
     .config(require('./route'));

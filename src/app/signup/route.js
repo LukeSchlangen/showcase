@@ -8,9 +8,9 @@ module.exports = route;
 function route($stateProvider) {
     // Configure states here
     $stateProvider
-        .state('signup', {
-            url: '/signup',
-            template: require('./templates/signup.tpl.jade'),
+        .state('signUp', {
+            url: '/signUp',
+            template: require('./templates/signUp.tpl.jade'),
             controller: 'SignUpCtrl as vm'
         });
 }
